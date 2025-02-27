@@ -1,0 +1,11 @@
+name: spectrogram
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pip
+  - pip:
+    - librosa
+    - pillow
